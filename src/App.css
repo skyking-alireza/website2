@@ -1,0 +1,103 @@
+.App{
+    text-align: center;
+}
+.keyboard{
+    background-color: #004134;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+}
+.letters{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 24px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    margin: 8px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+}
+.letters:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: 0.5s;
+}
+#input_words{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background: cornflowerblue;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    font-family: cursive;
+}
+.lists{
+    display: flex;
+    text-align: center;
+    background: lightslategray;
+    color: white;
+    border-radius: 7px;
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+}
+.words_list{
+    max-height: 200px;
+    overflow: scroll;
+    margin: 7px;
+}
+.reset{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.reset_game{
+    width: fit-content;
+    background: darkslategray;
+    padding: 15px;
+    color: white;
+    font-family: cursive;
+    border-radius: 12px;
+    font-size: 24px;
+    margin: 15px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.reset_game:hover{
+    transition: 0.7s;
+    background-color: rgb(47 79 79 / 70%);
+}
+.flex{
+    display: flex;
+}
+.white{
+    color: white;
+}
+.green{
+    color: green;
+}
+.yellow{
+    color: yellow;
+}
+.w-full{
+    width: 100%;
+}
+.filter-switch label {
+    cursor: pointer;
+}
+.filter-switch-item input:checked + label {
+    color: inherit;
+}
+.filter-switch-item input:not(:checked) + label {
+    --bg-opacity: 0;
+    box-shadow: none;
+}
+p{
+    margin: 0;
+}
